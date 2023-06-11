@@ -5,7 +5,7 @@ export default function Document() {
 	return (
 		<Html itemScope itemType='http://schema.org/Organization' lang='en'>
 			<Head>
-				<link rel='icon' href='/favicon.ico' />
+				<link rel='icon' href='/favicon.ico.jpg' />
 				<Script
 					src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_TRACKING_ID}`}
 					strategy='afterInteractive'
